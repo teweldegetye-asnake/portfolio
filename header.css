@@ -1,0 +1,16 @@
+            nav{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: end;
+                background-color: rgb(10, 78, 10);
+                margin-bottom: 1em;
+                padding: 0.5em;
+                gap: 1.5em;
+                border-top-left-radius: 8px;
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+                color: rgb(117, 114, 114);
+            }

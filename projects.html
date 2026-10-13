@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Projects</title>
+        <link rel="stylesheet" href="header.css">
+        <style>
+            body{
+                background-color: honeydew;
+            }
+            h1{
+                color: white;
+                background-color: rgb(35, 95, 95);
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+            .container2{
+                margin-left: 25%;
+            }
+            @media(min-width: 700px){
+                .images{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
+                }
+                .container2{
+                    margin-top: 20px;
+                    margin-left: 0px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+            <div class="head"><a href="./index.html">Home</a></div>
+            <div class="head"><a href="./aboutme.html">About Me</a></div>
+            <div class="head"><a href="./projects.html">Projects</a></div>
+            <div class="head"><a href="./education.html">Education Certificates</a></div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div><h1>UNIVERSITY EMERGENCY ALERT SYSTEM</h1>
+            <p>A mobile and web based system that allows students and university community to quickly report emergencies with thier location to adminstrators. This project focuses on providing emergency alert services for students, staff, and community members within a university campus. The system consists of a mobile application for users and a central monitoring system for security personnel to manage emergency incidents.</p>
+            </div>
+            <div class="images">
+                <img src="./sources/user login page.png" width="100%" height="400px" alt="user login page">
+                <img src="./sources/user interface.png" width="100%" height="400px" alt="user interface">
+                <img src="./sources/dashboard.png" width="100%" height="400px" alt="admin dashboard">
+                <img src="./sources/map.png" width="100%" height="400px" alt="admin map">
+                <img src="./sources/panel.png" width="100%" height="400px" alt="admin panel">
+            </div>
+            <div class="container2">
+                <div class="technology"> <h2>Technologies:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Firebase</li>
+                    <li>Cordova</li>
+                </ul>
+                </div>
+                <div class="features">
+                <h2>Main Features:</h2>
+                <ul>
+                    <li>Emergency alert</li><li>GPS location</li>
+                    <li>User authentication</li><li>Admin dashboard</li>
+                    <li>Alert management</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

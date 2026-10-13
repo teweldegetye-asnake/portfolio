@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tewelde's Portfolio</title>
+        <link rel="stylesheet" href="header.css">
+        <style>
+            body{
+                background-color: honeydew;
+            }
+            .imageandh1{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                height: 25em;
+                width: 50%;
+                border-radius: 5%;
+                margin: 50px auto;
+                justify-items: center;
+                background-color: rgb(35, 95, 95);
+            }
+            h1{
+                font-size: clamp(2em,2vw,4em);
+                text-align: center;
+            }
+            .div1{
+                background-color: rgb(211, 124, 24);
+            }
+            .div2{
+                background-color: brown;
+            }
+
+            .summary{
+                text-align: justify;
+                line-height: 1.6;
+                
+                padding: 5px;
+            }
+            .skill{
+                line-height: 1.6;
+            }
+
+            @media(min-width: 1000px){
+            .summary1{
+                float: left;
+                width: 45%;
+            }
+            .education{
+                float: right;
+                width: 45%;
+            }
+            .work{
+                float: right;
+                width: 45%;
+            }
+            .skill{
+                clear: left;
+                float: left;
+                width: 45%;
+            }
+            body{
+                height: 100vh;
+            }
+            }
+            footer{
+                clear: both;
+                background-color:rgb(10, 78, 10);
+                padding: 0.2em;
+                border-bottom-left-radius: 8px;
+            }
+            .foot{
+                color: white;
+            }
+            .contact{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                line-height: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="container">
+            <nav>
+            <div class="head"><a href="#">Home</a></div>
+            <div class="head"><a href="./aboutme.html">About Me</a></div>
+            <div class="head"><a href="./projects.html">Projects</a></div>
+            <div class="head"><a href="./education.html">Education Certificates</a></div>
+            </nav>
+        </header>
+        <div class="allinone">
+        <div class="imageandh1">
+        <div class="div1"><img src="./tewelde.JPG" width="100%" height="300" alt="tewelde's graduation photo"></div>
+        <div class="div2"><h1>Tewelde Getye</h1></div>
+        </div>
+        <div class="summary1">
+        <h2>Summary</h2>
+        <p class="summary">I am a Computer Science graduate with a strong 
+            interest in web and mobile application
+            development. I enjoy building practical,
+            user-friendly applications and continuously 
+            improving my programming and problem-solving
+            skills. I am passionate about learning new 
+            technologies and turning ideas into useful digital 
+            solutions.</p>
+        </div>
+        <div class="education">
+           <h2>Education</h2>
+           <ul>
+             <li><p>Bachelor of Science in Computer Science</p></li>
+             <li><p>University of Gondar - Gondar,Ethiopia</p></li>
+             <li><p>Graduated: june,2026</p></li>
+           </ul>
+        </div>
+        <div class="work">
+           <h2>Work Experience</h2>
+           <ul>
+             <li><p>Web Development Intern</p></li>
+             <li><p>PEDS technology - Gondar,Ethiopia</p></li>
+             <li><p>November,2025 - December, 2025</p></li>
+           </ul>
+        </div>
+        <div class="skill">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Programming Languages: C++</li>
+            <li>Web Technlogies: html, css, and javascript</li>
+            <li>Databases: Firebase firestore, firbase realtme database and SQL</li>
+            <li>Development Tools: VS code and code block</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>working Under Pressure during Peak Hours</li>
+            <li>Adaptability to changing customer demands</li>
+            <li>Time management for shift-related tasks</li>
+            <li>Multitasking during peak hours</li>
+            <li>Proactive problem-solving</li>
+            <li>Effective cummunication with team members</li>
+            <li>Increasing customer satisfaction via feedback</li>
+            <li>Conflict resolution with Customers</li>
+        </ul>
+        </div>
+    </div>
+        <footer>
+        <div class="contact">
+          <div class="email foot"> Email: <a href="teweldegetye@gmail.com"> teweldegetye@gmail.com</a></div>
+          <div class="phone foot">phone: +251 964 746 772 / +251 997 140 198</div>
+          <div class="linkedIn foot"> LinkedIn: <a href="https://www.linkedin.com/in/tewelde-getye-98450a428"> https://www.linkedin.com/in/tewelde-getye-98450a428</a></div>
+          <div class="github foot">GitHub: <a href="https://github.com/teweldegetye-asnake"> https://github.com/teweldegetye-asnake</a></div>
+        </div>
+        </footer>
+    </body>
+</html>
