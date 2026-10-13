@@ -1,31 +1,32 @@
-My Personal Portfolio
+<h1>My Personal Portfolio</h1>
 
-About
+<h2>About</h2>
 Welcome to my personal portfolio! This project showcases my skills, projects, and background as a Computer Science graduate interested in web development.
-Technologies Used
+
+<h2>Technologies Used</h2>
 HTML5 — website structure
 CSS3 — styling and responsive design
 
-Features
+<h2>Features</h2>
 Personal introduction and background
 Skills and technologies
 Projects showcase
 Contact information
 Responsive layout for different screen sizes
 
-Project Structure
+<h2>Project Structure</h2>
 index.html — main webpage
 source/ — supporting files
 
-How to Run
+<h2>How to Run</h2>
 Download or clone this repository.
 Open the project folder.
 Open index.html in your web browser.
 
 Note: Keep the original folder structure unchanged so the HTML file can correctly load its source files.
 
-Author
+<h2>Author</h2>
 Computer Science Graduate
 
-License
+<h2>License</h2>
 This project is available for viewing and learning. Please contact the author before reusing substantial portions of the code.
